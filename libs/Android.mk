@@ -17,15 +17,6 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := gpr_list.cfg
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := gpr_list.cfg
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/egl
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_TAGS := optional
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_SRC_FILES := libGLES_mali.so
 LOCAL_MODULE := libGLES_mali
 LOCAL_MODULE_OWNER := samsung_arm

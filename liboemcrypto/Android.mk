@@ -39,20 +39,6 @@ LOCAL_MODULE_OWNER := samsung
 include $(BUILD_PREBUILT)
 
 ###############################################################################
-# liboemcrypto.a
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := liboemcrypto
-LOCAL_MODULE_CLASS := STATIC_LIBRARIES
-LOCAL_MODULE_SUFFIX := .a
-LOCAL_SRC_FILES := $(LOCAL_MODULE)$(LOCAL_MODULE_SUFFIX)
-LOCAL_PROPRIETARY_MODULE := true
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_TARGET_ARCH := arm
-LOCAL_MULTILIB := 32
-include $(BUILD_PREBUILT)
-
-###############################################################################
 # libdrmwvmplugin.so
 
 include $(CLEAR_VARS)

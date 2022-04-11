@@ -21,41 +21,5 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := mfc_fw_v10.20.bin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mfc_ldfw.bin
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := mfc_ldfw_v10.20.bin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := fimc_is_lib.bin
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := fimc_is_lib.bin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := setfile_2p8.bin
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := setfile_2p8.bin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := setfile_6b2.bin
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := setfile_6b2.bin
+LOCAL_SRC_FILES := mfc_fw.bin
 include $(BUILD_PREBUILT)
